@@ -26,7 +26,6 @@ class Usuario:
         self.hacer_retiro(monto)
         otro_usuario.hacer_deposito(monto)
 
-
 usuario_1 = Usuario('Andrea',3540)
 usuario_1.hacer_deposito(2000)
 usuario_1.hacer_deposito(430)
